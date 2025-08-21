@@ -1,0 +1,213 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up",
+        "How are you",
+        "Is anyone there",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How are you doing?",
+        "Good to see you! What's on your mind?",
+        "Hello! I'm here to assist you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Until next time",
+        "Catch you later",
+        "I have to go",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Come back anytime!",
+        "Until next time! Stay safe!",
+        "Goodbye! It was nice talking to you!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "I appreciate it",
+        "Thank you so much",
+        "Much appreciated",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could assist you!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need help",
+        "Can you help me",
+        "What can you do",
+        "How do you work",
+        "What are your capabilities",
+        "How can you assist me"
+      ],
+      "responses": [
+        "I'm here to help! I can answer questions, provide information, and have conversations with you.",
+        "I can assist you with various topics. Just ask me anything!",
+        "I'm designed to be helpful! What would you like to know?",
+        "I can help with questions, provide information, or just chat. What do you need?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like",
+        "How's the weather",
+        "Is it raining",
+        "Is it sunny",
+        "Weather forecast",
+        "Will it rain today",
+        "Temperature today"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data, but I'd recommend checking a weather app or website for current conditions.",
+        "For accurate weather information, please check your local weather service or a weather app.",
+        "I can't provide current weather data, but weather.com or your phone's weather app would have the latest forecast!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "Current time",
+        "What's the time",
+        "Time please",
+        "Can you tell me the time"
+      ],
+      "responses": [
+        "I don't have access to real-time data, but you can check the time on your device!",
+        "Please check your device's clock for the current time.",
+        "I can't tell the current time, but it should be displayed on your screen or device."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name",
+        "Who are you",
+        "What are you called",
+        "What should I call you",
+        "Do you have a name"
+      ],
+      "responses": [
+        "I'm an AI chatbot created to help and chat with you!",
+        "You can call me your AI assistant!",
+        "I'm just a friendly chatbot here to help you.",
+        "I'm an AI assistant designed to have conversations and provide help."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you",
+        "What's your age",
+        "When were you created",
+        "When were you born"
+      ],
+      "responses": [
+        "I don't have an age in the traditional sense - I'm an AI program! I was created in 2025 by Aryan Chauhan.",
+        "I exist in the digital realm, so age doesn't quite apply to me. However, I was created in 2025 by Aryan Chauhan.",
+        "I was created recently in 2025 by Aryan Chauhan, but I don't age like humans do!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes",
+        "Make me laugh",
+        "Say something funny",
+        "Can you tell jokes"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my wife she was drawing her eyebrows too high. She looked surprised!",
+        "Why don't eggs tell jokes? They'd crack each other up!",
+        "What do you call a fake noodle? An impasta!",
+        "Why did the scarecrow win an award? He was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You're awesome",
+        "You're great",
+        "Good job",
+        "Well done",
+        "You're helpful",
+        "You're smart",
+        "I like you"
+      ],
+      "responses": [
+        "Thank you! That's very kind of you to say!",
+        "I appreciate the compliment! I'm glad I could help!",
+        "That means a lot! Thank you!",
+        "You're too kind! I'm happy to be helpful!",
+        "Thank you! I enjoy our conversation too!"
+      ]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": [
+        "What are your hobbies",
+        "What do you like to do",
+        "Do you have interests",
+        "What do you enjoy"
+      ],
+      "responses": [
+        "I enjoy having conversations and helping people solve problems!",
+        "I love learning new things through our conversations!",
+        "I find it interesting to chat with people and learn about different topics!",
+        "My favorite activity is helping people and having meaningful conversations!"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        "I don't understand",
+        "What",
+        "Huh",
+        "Can you repeat that",
+        "I'm confused"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you rephrase?",
+        "I'm not sure I follow. Can you try asking in a different way?",
+        "Could you clarify what you mean?",
+        "I'm having trouble understanding. Can you be more specific?",
+        "Let me try to help - could you ask that in another way?"
+      ]
+    }
+  ]
+}
